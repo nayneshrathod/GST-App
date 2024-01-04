@@ -1,7 +1,8 @@
 <!--
---- Readme.md Snippet without images Start ---
+&lt;--- Readme.md Snippet without images Start ---&gt;
 ## Tech Stack
 nayneshrathod/GST-App is built on the following main stack:
+
 - [Segment](https://segment.com/?utm_medium=paid-display&utm_source=stackshare&utm_campaign=analytics) – Analytics Integrator
 - [Coveralls](https://coveralls.io/) – Code Coverage
 - [Jest](http://facebook.github.io/jest/) – Javascript Testing Framework
@@ -51,11 +52,13 @@ nayneshrathod/GST-App is built on the following main stack:
 - [Travis CI](http://travis-ci.com/) – Continuous Integration
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet without images End ---
 
---- Readme.md Snippet with images Start ---
+&lt;--- Readme.md Snippet without images End ---&gt;
+
+&lt;--- Readme.md Snippet with images Start ---&gt;
 ## Tech Stack
 nayneshrathod/GST-App is built on the following main stack:
+
 - <img width='25' height='25' src='https://img.stackshare.io/service/5/default_aa447805966bbb635af0d113e93e1f1030497052.jpg' alt='Segment'/> [Segment](https://segment.com/?utm_medium=paid-display&utm_source=stackshare&utm_campaign=analytics) – Analytics Integrator
 - <img width='25' height='25' src='https://img.stackshare.io/service/680/a43e4a04cb9f778842de43f95db59a14.png' alt='Coveralls'/> [Coveralls](https://coveralls.io/) – Code Coverage
 - <img width='25' height='25' src='https://img.stackshare.io/service/830/jest.png' alt='Jest'/> [Jest](http://facebook.github.io/jest/) – Javascript Testing Framework
@@ -105,14 +108,15 @@ nayneshrathod/GST-App is built on the following main stack:
 - <img width='25' height='25' src='https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png' alt='Travis CI'/> [Travis CI](http://travis-ci.com/) – Continuous Integration
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet with images End ---
+
+&lt;--- Readme.md Snippet with images End ---&gt;
 -->
 <div align="center">
 
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [nayneshrathod/GST-App](https://github.com/nayneshrathod/GST-App)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|296<br/>Tools used|11/09/23 <br/>Report generated|
+|300<br/>Tools used|01/04/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -595,9 +599,9 @@ Full tech stack [here](/techstack.md)
 </table>
 
 
-## <img src='https://img.stackshare.io/group.svg' /> Open source packages (241)</h2>
+## <img src='https://img.stackshare.io/group.svg' /> Open source packages (245)</h2>
 
-## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (241)
+## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (245)
 
 |NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
 |:------|:------|:------|:------|:------|:------|
@@ -656,6 +660,7 @@ Full tech stack [here](/techstack.md)
 |[bytes](https://www.npmjs.com/bytes)|v3.1.0|05/18/20|Naynesh Rathod |MIT|N/A|
 |[camelcase](https://www.npmjs.com/camelcase)|v2.1.1|05/18/20|Naynesh Rathod |MIT|N/A|
 |[chai-subset](https://www.npmjs.com/chai-subset)|v1.6.0|05/18/20|Naynesh Rathod |MIT|N/A|
+|[chalk](https://www.npmjs.com/chalk)|v1.1.3|05/18/20|Naynesh Rathod |MIT|N/A|
 |[cheerio](https://www.npmjs.com/cheerio)|v1.0.0|05/18/20|Naynesh Rathod |MIT|N/A|
 |[chokidar](https://www.npmjs.com/chokidar)|v1.7.0|05/18/20|Naynesh Rathod |MIT|N/A|
 |[cli-table](https://www.npmjs.com/cli-table)|v0.3.1|05/18/20|Naynesh Rathod |MIT|N/A|
@@ -723,6 +728,7 @@ Full tech stack [here](/techstack.md)
 |[hbs](https://www.npmjs.com/hbs)|v4.0.4|05/18/20|Naynesh Rathod |MIT|[CVE-2021-32822](https://github.com/advisories/GHSA-7f5c-rpf4-86p8) (Moderate)|
 |[highland](https://www.npmjs.com/highland)|v2.3.0|05/18/20|Naynesh Rathod |Apache-2.0|N/A|
 |[http-errors](https://www.npmjs.com/http-errors)|v1.7.2|05/18/20|Naynesh Rathod |MIT|N/A|
+|[husky](https://www.npmjs.com/husky)|v0.14.3|05/18/20|Naynesh Rathod |MIT|N/A|
 |[iconv](https://www.npmjs.com/iconv)|N/A|05/18/20|Naynesh Rathod |ISC|N/A|
 |[iconv-lite](https://www.npmjs.com/iconv-lite)|v0.4.24|05/18/20|Naynesh Rathod |MIT|N/A|
 |[immutable](https://www.npmjs.com/immutable)|v3.8.2|05/18/20|Naynesh Rathod |MIT|N/A|
@@ -746,11 +752,12 @@ Full tech stack [here](/techstack.md)
 |[karma-phantomjs-launcher](https://www.npmjs.com/karma-phantomjs-launcher)|v1.0.2|05/18/20|Naynesh Rathod |MIT|N/A|
 |[karma-sinon](https://www.npmjs.com/karma-sinon)|v1.0.5|05/18/20|Naynesh Rathod |MIT|N/A|
 |[latest-version](https://www.npmjs.com/latest-version)|v1.0.1|05/18/20|Naynesh Rathod |MIT|N/A|
+|[lint-staged](https://www.npmjs.com/lint-staged)|v8.1.3|05/18/20|Naynesh Rathod |MIT|N/A|
 |[lodash.camelcase](https://www.npmjs.com/lodash.camelcase)|v4.3.0|05/18/20|Naynesh Rathod |MIT|N/A|
 |[lodash.isequal](https://www.npmjs.com/lodash.isequal)|v4.5.0|05/18/20|Naynesh Rathod |MIT|N/A|
 |[lolex](https://www.npmjs.com/lolex)|v2.3.2|05/18/20|Naynesh Rathod |BSD-3-Clause|N/A|
 |[make-dir](https://www.npmjs.com/make-dir)|v1.3.0|05/18/20|Naynesh Rathod |MIT|N/A|
-|[marked](https://www.npmjs.com/marked)|v0.6.2|05/18/20|Naynesh Rathod |MIT|[CVE-2022-21680](https://github.com/advisories/GHSA-rrrm-qjm4-v8hf) (High)<br/>[CVE-2022-21681](https://github.com/advisories/GHSA-5v2h-r2cx-5xgj) (High)<br/>[](https://github.com/advisories/GHSA-ch52-vgq2-943f) (Low)|
+|[marked](https://www.npmjs.com/marked)|v0.6.2|05/18/20|Naynesh Rathod |MIT|[CVE-2022-21681](https://github.com/advisories/GHSA-5v2h-r2cx-5xgj) (High)<br/>[CVE-2022-21680](https://github.com/advisories/GHSA-rrrm-qjm4-v8hf) (High)<br/>[](https://github.com/advisories/GHSA-ch52-vgq2-943f) (Low)|
 |[matcha](https://www.npmjs.com/matcha)|v0.7.0|05/18/20|Naynesh Rathod |MIT|N/A|
 |[merge-descriptors](https://www.npmjs.com/merge-descriptors)|v1.0.1|05/18/20|Naynesh Rathod |MIT|N/A|
 |[method-override](https://www.npmjs.com/method-override)|v3.0.0|05/18/20|Naynesh Rathod |MIT|N/A|
@@ -803,6 +810,7 @@ Full tech stack [here](/techstack.md)
 |[safe-buffer](https://www.npmjs.com/safe-buffer)|v5.1.2|05/18/20|Naynesh Rathod |MIT|N/A|
 |[safe-publish-latest](https://www.npmjs.com/safe-publish-latest)|v1.1.2|05/18/20|Naynesh Rathod |MIT|N/A|
 |[seedrandom](https://www.npmjs.com/seedrandom)|v2.4.3|05/18/20|Naynesh Rathod |MIT|N/A|
+|[semantic-release](https://www.npmjs.com/semantic-release)|v8.2.3|05/18/20|Naynesh Rathod |MIT|[CVE-2020-26226](https://github.com/advisories/GHSA-r2j6-p67h-q639) (High)|
 |[send](https://www.npmjs.com/send)|v0.17.1|05/18/20|Naynesh Rathod |MIT|N/A|
 |[serve-static](https://www.npmjs.com/serve-static)|v1.14.1|05/18/20|Naynesh Rathod |MIT|N/A|
 |[should](https://www.npmjs.com/should)|v13.2.1|05/18/20|Naynesh Rathod |MIT|N/A|
@@ -846,4 +854,4 @@ Full tech stack [here](/techstack.md)
 <br/>
 <div align='center'>
 
-Generated via [Stack File](https://github.com/apps/stack-file)
+Generated via [Stack File](https://github.com/marketplace/stack-file)
