@@ -1,11 +1,12 @@
 repo_name: nayneshrathod/GST-App
 report_id: 68f3930dc4f898ff8f34454fa304b5ca
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-09T17:51:47+00:00'
+timestamp: '2024-01-04T15:11:33+00:00'
 requested_by: nayneshrathod
 provider: github
 branch: master
-detected_tools_count: 296
+detected_tools_count: 300
 tools:
 - name: CSS 3
   description: The latest evolution of the Cascading Style Sheets language
@@ -15,6 +16,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/nayneshrathod/GST-App
   detection_source: Repo Metadata
 - name: JavaScript
   description: Lightweight, interpreted, object-oriented language with first-class
@@ -25,6 +27,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/nayneshrathod/GST-App
   detection_source: Repo Metadata
 - name: TypeScript
   description: A superset of JavaScript that compiles to clean JavaScript output
@@ -35,6 +38,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/nayneshrathod/GST-App
   detection_source: Repo Metadata
 - name: ".NET"
   description: A free, cross-platform, open source developer platform for building
@@ -46,7 +50,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
-  detection_source: api/node_modules/semver-diff/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/iconv-lite/package.json
+  detection_source: api/node_modules/iconv-lite/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: Angular
@@ -59,7 +64,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Javascript MVC Frameworks
   image_url: https://img.stackshare.io/service/3745/cb8U-gL6_400x400.jpg
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -74,7 +79,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Front-End Frameworks
   image_url: https://img.stackshare.io/service/1101/C9QJ7V3X.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -89,8 +94,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Microframeworks (Backend)
   image_url: https://img.stackshare.io/service/1163/hashtag.png
-  detection_source_url: api/package-lock.json
-  detection_source: api/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/package-lock.json
+  detection_source: api/node_modules/cors/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: Node.js
@@ -102,7 +107,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
-  detection_source: package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/@sindresorhus/is/package.json
+  detection_source: api/node_modules/@sindresorhus/is/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: Prototype
@@ -113,6 +119,7 @@ tools:
   category: Libraries
   sub_category: Javascript UI Libraries
   image_url: https://img.stackshare.io/service/3597/o_bigger_400x400.png
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/p-cancelable/package.json
   detection_source: api/node_modules/p-cancelable/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -125,8 +132,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Concurrency Frameworks
   image_url: https://img.stackshare.io/service/1796/984368.png
-  detection_source_url: package-lock.json
-  detection_source: package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/package-lock.json
+  detection_source: api/node_modules/@sindresorhus/is/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: MongoDB
@@ -137,7 +144,8 @@ tools:
   category: Data Stores
   sub_category: Databases
   image_url: https://img.stackshare.io/service/1030/leaf-360x360.png
-  detection_source: api/node_modules/mquery/test/utils.test.js
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/mongodb/lib/admin.js
+  detection_source: api/node_modules/mongodb/lib/admin.js
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: Mongoose
@@ -150,7 +158,7 @@ tools:
   category: Data Stores
   sub_category: Object Document Mapper (ODM)
   image_url: https://img.stackshare.io/service/1231/0TXzZU7W_400x400.jpg
-  detection_source_url: api/package-lock.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/package-lock.json
   detection_source: api/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -162,6 +170,7 @@ tools:
   category: Data Stores
   sub_category: In-Memory Databases
   image_url: https://img.stackshare.io/service/10846/default_ee620afff27b68922671eadeacc23ed67db2beec.png
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/registry-auth-token/package.json
   detection_source: api/node_modules/registry-auth-token/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -174,6 +183,7 @@ tools:
   category: Data Stores
   sub_category: In-Memory Databases
   image_url: https://img.stackshare.io/service/1031/default_cbce472cd134adc6688572f999e9122b9657d4ba.png
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/express/package.json
   detection_source: api/node_modules/express/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -186,6 +196,7 @@ tools:
   category: Data Stores
   sub_category: Databases
   image_url: https://img.stackshare.io/service/1071/sqlite.jpg
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/cacheable-request/package.json
   detection_source: api/node_modules/cacheable-request/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -199,7 +210,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Browser Testing
   image_url: https://img.stackshare.io/no-img-open-source.png
-  detection_source_url: api/node_modules/typedarray-to-buffer/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/typedarray-to-buffer/package.json
   detection_source: api/node_modules/typedarray-to-buffer/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -213,8 +224,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: JavaScript Compilers
   image_url: https://img.stackshare.io/service/2739/-1wfGjNw.png
-  detection_source_url: api/node_modules/sift/yarn.lock
-  detection_source: api/node_modules/string-width/node_modules/emoji-regex/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/sift/yarn.lock
+  detection_source: api/node_modules/bson/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: Browserify
@@ -227,8 +238,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/849/9esmqty2.png
-  detection_source_url: api/node_modules/bluebird/package.json
-  detection_source: api/node_modules/qs/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/bluebird/package.json
+  detection_source: api/node_modules/bluebird/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: Chai
@@ -241,8 +252,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Javascript Testing Framework
   image_url: https://img.stackshare.io/service/1725/chai.png
-  detection_source_url: api/node_modules/chokidar/package.json
-  detection_source: api/node_modules/utils-merge/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/chokidar/package.json
+  detection_source: api/node_modules/chokidar/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: Codecov
@@ -253,6 +264,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Coverage
   image_url: https://img.stackshare.io/service/2673/Codecov_Mark_Circle_Pink.png
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/make-dir/package.json
   detection_source: api/node_modules/make-dir/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -265,7 +277,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Coverage
   image_url: https://img.stackshare.io/service/680/a43e4a04cb9f778842de43f95db59a14.png
-  detection_source: api/node_modules/signal-exit/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/@szmarczak/http-timer/package.json
+  detection_source: api/node_modules/@szmarczak/http-timer/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: ESLint
@@ -277,7 +290,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
-  detection_source: api/node_modules/vary/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/accepts/package.json
+  detection_source: api/node_modules/accepts/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: EditorConfig
@@ -289,6 +303,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/4726/edcon_color_transbg2_400x400.png
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/qs/package.json
   detection_source: api/node_modules/qs/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -300,6 +315,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/nayneshrathod/GST-App
   detection_source: Repo Metadata
 - name: InSpec
   description: Open-source testing framework for infrastructure
@@ -309,6 +325,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Testing Frameworks
   image_url: https://img.stackshare.io/service/6202/inspec-1.jpg
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/qs/package.json
   detection_source: api/node_modules/qs/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -320,6 +337,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/1945/mzh2bRes_400x400.png
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/bluebird/package.json
   detection_source: api/node_modules/bluebird/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -332,7 +350,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Javascript Testing Framework
   image_url: https://img.stackshare.io/service/831/7c0b595409af531b9cdeb07f8c513e8b.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -346,7 +364,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Javascript Testing Framework
   image_url: https://img.stackshare.io/service/830/jest.png
-  detection_source_url: api/node_modules/saslprep/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/saslprep/package.json
   detection_source: api/node_modules/saslprep/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -360,8 +378,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Browser Testing
   image_url: https://img.stackshare.io/service/1420/TidYGd6a.png
-  detection_source_url: package-lock.json
-  detection_source: package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/package-lock.json
+  detection_source: api/node_modules/debug/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: Mocha
@@ -375,8 +393,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Javascript Testing Framework
   image_url: https://img.stackshare.io/service/832/mocha.png
-  detection_source_url: api/node_modules/sift/yarn.lock
-  detection_source: api/node_modules/vary/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/sift/yarn.lock
+  detection_source: api/node_modules/accepts/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: NuGet
@@ -387,7 +405,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
-  detection_source: api/node_modules/semver-diff/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/iconv-lite/package.json
+  detection_source: api/node_modules/iconv-lite/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: PhantomJS
@@ -399,7 +418,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Headless Browsers
   image_url: https://img.stackshare.io/service/1832/phantomjs.png
-  detection_source: api/node_modules/nodemon/node_modules/debug/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/debug/package.json
+  detection_source: api/node_modules/debug/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: Prettier
@@ -412,8 +432,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
-  detection_source_url: api/node_modules/http-cache-semantics/package.json
-  detection_source: api/node_modules/saslprep/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/http-cache-semantics/package.json
+  detection_source: api/node_modules/http-cache-semantics/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: Protractor
@@ -426,7 +446,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Javascript Testing Framework
   image_url: https://img.stackshare.io/service/1754/protractor-logo1.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -439,8 +459,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Javascript Testing Framework
   image_url: https://img.stackshare.io/service/3509/logo.png
-  detection_source_url: api/node_modules/bluebird/package.json
-  detection_source: api/node_modules/mquery/node_modules/debug/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/bluebird/package.json
+  detection_source: api/node_modules/bluebird/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: SuperTest
@@ -453,8 +473,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Javascript Testing Framework
   image_url: https://img.stackshare.io/no-img-open-source.png
-  detection_source_url: api/node_modules/body-parser/package.json
-  detection_source: api/node_modules/vary/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/body-parser/package.json
+  detection_source: api/node_modules/body-parser/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: TSLint
@@ -465,7 +485,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/5561/303157.png
-  detection_source: package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/@sindresorhus/is/package.json
+  detection_source: api/node_modules/@sindresorhus/is/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: Travis CI
@@ -477,7 +498,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
-  detection_source: api/node_modules/undefsafe/.travis.yml
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/bl/.travis.yml
+  detection_source: api/node_modules/bl/.travis.yml
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: Webpack
@@ -490,8 +512,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: JS Build Tools / JS Task Runners
   image_url: https://img.stackshare.io/service/1682/IMG_4636.PNG
-  detection_source_url: api/node_modules/sift/yarn.lock
-  detection_source: api/node_modules/sift/webpack.config.js
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/sift/yarn.lock
+  detection_source: api/node_modules/bson/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: Yarn
@@ -502,6 +524,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/sift/yarn.lock
   detection_source: api/node_modules/sift/yarn.lock
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -513,6 +536,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Text Editor
   image_url: https://img.stackshare.io/service/6888/c17e7d9688d86bd9f9506ec1fbd6d200_400x400.png
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/mongoose/package.json
   detection_source: api/node_modules/mongoose/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -527,7 +551,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Headless Browsers
   image_url: https://img.stackshare.io/service/7054/preview.jpeg
-  detection_source_url: api/node_modules/@sindresorhus/is/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/@sindresorhus/is/package.json
   detection_source: api/node_modules/@sindresorhus/is/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -541,7 +565,7 @@ tools:
   category: Monitoring
   sub_category: node.js Application Monitoring
   image_url: https://img.stackshare.io/service/5577/preview.png
-  detection_source_url: api/package-lock.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/package-lock.json
   detection_source: api/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -553,6 +577,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/package.json
   detection_source: package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -565,7 +590,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Git Tools
   image_url: https://img.stackshare.io/no-img-open-source.png
-  detection_source_url: api/node_modules/array-flatten/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/array-flatten/package.json
   detection_source: api/node_modules/array-flatten/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -578,7 +603,8 @@ tools:
   category: Analytics
   sub_category: Analytics Integrator
   image_url: https://img.stackshare.io/service/5/default_aa447805966bbb635af0d113e93e1f1030497052.jpg
-  detection_source: api/node_modules/mime/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/mime-types/package.json
+  detection_source: api/node_modules/mime-types/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: Immutable.js
@@ -592,7 +618,7 @@ tools:
   category: Libraries
   sub_category: Javascript Utilities & Libraries
   image_url: https://img.stackshare.io/no-img-open-source.png
-  detection_source_url: api/node_modules/sift/yarn.lock
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/sift/yarn.lock
   detection_source: api/node_modules/sift/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -605,7 +631,7 @@ tools:
   category: Libraries
   sub_category: Javascript Utilities & Libraries
   image_url: https://img.stackshare.io/service/2438/lodash.png
-  detection_source_url: api/node_modules/sift/yarn.lock
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/sift/yarn.lock
   detection_source: api/node_modules/object-assign/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -619,6 +645,7 @@ tools:
   category: Libraries
   sub_category: Javascript Utilities & Libraries
   image_url: https://img.stackshare.io/service/3643/Xrtdc94q_400x400.png
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/mongoose/package.json
   detection_source: api/node_modules/mongoose/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -631,7 +658,8 @@ tools:
   category: Mobile
   sub_category: Cross-Platform Mobile Tools
   image_url: https://img.stackshare.io/service/6422/react-navigation.png
-  detection_source: api/node_modules/xdg-basedir/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/@sindresorhus/is/package.json
+  detection_source: api/node_modules/@sindresorhus/is/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: chalk
@@ -640,7 +668,8 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/8072/13122722.png
-  detection_source: api/node_modules/update-notifier/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/ansi-align/package.json
+  detection_source: api/node_modules/ansi-align/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: husky
@@ -648,7 +677,8 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/9527/5502029.jpeg
-  detection_source: api/node_modules/send/node_modules/ms/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/http-cache-semantics/package.json
+  detection_source: api/node_modules/http-cache-semantics/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: jsdoc
@@ -659,6 +689,7 @@ tools:
   category: Application Utilities
   sub_category: Documentation as a Service & Tools
   image_url: https://img.stackshare.io/service/4047/js-doc.png
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/mongodb/package.json
   detection_source: api/node_modules/mongodb/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -667,7 +698,8 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/10577/11071.jpeg
-  detection_source: api/node_modules/send/node_modules/ms/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/http-cache-semantics/package.json
+  detection_source: api/node_modules/http-cache-semantics/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: semantic-release
@@ -676,7 +708,8 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/10156/12867925.png
-  detection_source: api/node_modules/undefsafe/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/nodemon/package.json
+  detection_source: api/node_modules/nodemon/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: "@angular-devkit/build-angular"
@@ -689,7 +722,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16162/default_77b54a203c743d16eddb6b6390cba17218454fa0.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -703,7 +736,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16010/default_af9df0bc9fa88191d2fe609204c5bd7599c1a797.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -717,7 +750,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16000/default_976847109ccfe67d00b33d9ff71329b6e82f5f89.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -731,7 +764,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15913/default_ac622bc364a601d766b9a6f6039f191492f54d65.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -745,7 +778,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15917/default_4040fefea2f98006727f63d042275b96a275ab2d.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -759,7 +792,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15927/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -773,7 +806,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15944/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -787,7 +820,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16047/default_924b66c04aa848a4028c1a5753a23dae0f835f86.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -801,7 +834,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15921/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -815,7 +848,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15933/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -829,7 +862,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15965/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -843,8 +876,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15848/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
-  detection_source_url: api/node_modules/emoji-regex/package.json
-  detection_source: api/node_modules/string-width/node_modules/emoji-regex/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/emoji-regex/package.json
+  detection_source: api/node_modules/emoji-regex/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: "@babel/core"
@@ -857,8 +890,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15810/default_004658cda9b38934f2871435e9dc15608c86e8be.png
-  detection_source_url: package-lock.json
-  detection_source: api/node_modules/string-width/node_modules/emoji-regex/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/package-lock.json
+  detection_source: api/node_modules/emoji-regex/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: "@babel/preset-env"
@@ -871,8 +904,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15819/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
-  detection_source_url: package-lock.json
-  detection_source: api/node_modules/string-width/node_modules/emoji-regex/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/package-lock.json
+  detection_source: api/node_modules/emoji-regex/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: "@commitlint/cli"
@@ -885,7 +918,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16059/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
-  detection_source_url: api/node_modules/nodemon/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/nodemon/package.json
   detection_source: api/node_modules/nodemon/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -899,7 +932,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16924/default_7fe969828600a90e84607bfa2a19979e53a0579d.png
-  detection_source_url: api/node_modules/nodemon/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/nodemon/package.json
   detection_source: api/node_modules/nodemon/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -913,7 +946,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15924/default_ac622bc364a601d766b9a6f6039f191492f54d65.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -927,7 +960,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16060/default_924b66c04aa848a4028c1a5753a23dae0f835f86.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -941,7 +974,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17003/default_88e2e076a71afdc1de87ad42c80c1606f2689af1.png
-  detection_source_url: api/node_modules/@sindresorhus/is/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/@sindresorhus/is/package.json
   detection_source: api/node_modules/@sindresorhus/is/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -955,8 +988,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15809/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
-  detection_source_url: package-lock.json
-  detection_source: package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/package-lock.json
+  detection_source: api/node_modules/@sindresorhus/is/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: "@typescript-eslint/eslint-plugin"
@@ -969,8 +1002,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15982/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
-  detection_source_url: api/node_modules/defer-to-connect/package.json
-  detection_source: api/node_modules/type-fest/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/defer-to-connect/package.json
+  detection_source: api/node_modules/defer-to-connect/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: "@typescript-eslint/parser"
@@ -983,8 +1016,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15980/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
-  detection_source_url: api/node_modules/defer-to-connect/package.json
-  detection_source: api/node_modules/type-fest/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/defer-to-connect/package.json
+  detection_source: api/node_modules/defer-to-connect/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: abbrev
@@ -997,7 +1030,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18429/default_6d9edf4cb72e43af502b5377a9f3710f31457feb.png
-  detection_source_url: api/node_modules/sift/yarn.lock
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/sift/yarn.lock
   detection_source: api/node_modules/nopt/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -1011,7 +1044,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17723/default_552addbbff67ec0ef62ce1d229e112d14ca818f5.png
-  detection_source_url: api/package-lock.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/package-lock.json
   detection_source: api/node_modules/express/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -1025,7 +1058,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16344/default_9ae0e75ed749aca83d89f7e1ccb309be2bfc610e.png
-  detection_source_url: api/node_modules/sift/yarn.lock
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/sift/yarn.lock
   detection_source: api/node_modules/bluebird/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -1052,8 +1085,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17934/default_c741d08ac1035482640dcd4a57c59231d0ce4858.png
-  detection_source_url: package-lock.json
-  detection_source: api/node_modules/send/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/package-lock.json
+  detection_source: api/node_modules/cors/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: ansi
@@ -1066,7 +1099,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18744/default_a0c218dcb961fccae1cb03e431692daad86f7866.png
-  detection_source_url: api/node_modules/is-number/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/is-number/package.json
   detection_source: api/node_modules/is-number/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -1080,7 +1113,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17880/default_3bc64391130859f94a137a7dc6cb87cd54da546b.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/package-lock.json
   detection_source: api/node_modules/braces/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -1094,8 +1127,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17917/default_72dbba22ca96f25f78f55f8ea5393222efca5494.png
-  detection_source_url: api/node_modules/sift/yarn.lock
-  detection_source: api/node_modules/strip-ansi/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/sift/yarn.lock
+  detection_source: api/node_modules/string-width/node_modules/strip-ansi/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: ansi-styles
@@ -1108,7 +1141,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17247/default_548b30201f78497e75a25eec5123ef18df71e69d.png
-  detection_source_url: api/node_modules/sift/yarn.lock
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/sift/yarn.lock
   detection_source: api/node_modules/chalk/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -1122,7 +1155,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18287/default_2b4f164959c4edb71332bbb8bb8be1f545c646f8.png
-  detection_source_url: api/node_modules/sift/yarn.lock
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/sift/yarn.lock
   detection_source: api/node_modules/chokidar/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -1136,7 +1169,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18115/image.png
-  detection_source_url: api/package-lock.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/package-lock.json
   detection_source: api/node_modules/express/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -1150,7 +1183,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16188/default_9a7a7dcd69c12c746dc4000dc4d1b75758079c9f.png
-  detection_source_url: api/node_modules/sift/yarn.lock
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/sift/yarn.lock
   detection_source: api/node_modules/readable-stream/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -1164,8 +1197,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15851/default_a2f722724df977d0f7752839e5d8845ab41f69d5.png
-  detection_source_url: api/node_modules/sift/yarn.lock
-  detection_source: api/node_modules/nodemon/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/sift/yarn.lock
+  detection_source: api/node_modules/iconv-lite/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: ava
@@ -1178,8 +1211,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15883/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
-  detection_source_url: api/node_modules/@sindresorhus/is/package.json
-  detection_source: api/node_modules/xdg-basedir/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/@sindresorhus/is/package.json
+  detection_source: api/node_modules/@sindresorhus/is/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: babel-cli
@@ -1192,7 +1225,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15804/default_97d4687bd07ff1bb963fd566c84e7cbf7c73bbee.png
-  detection_source_url: api/node_modules/sift/yarn.lock
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/sift/yarn.lock
   detection_source: api/node_modules/sift/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -1206,8 +1239,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15798/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
-  detection_source_url: api/node_modules/sift/yarn.lock
-  detection_source: api/node_modules/sift/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/sift/yarn.lock
+  detection_source: api/node_modules/bson/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: babel-loader
@@ -1220,8 +1253,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15800/default_4acafe585186b4157fa23322ae7ca89e24b5cdef.png
-  detection_source_url: package-lock.json
-  detection_source: api/node_modules/mongoose/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/package-lock.json
+  detection_source: api/node_modules/bson/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: babel-polyfill
@@ -1234,8 +1267,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15867/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
-  detection_source_url: api/node_modules/sift/yarn.lock
-  detection_source: api/node_modules/string_decoder/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/sift/yarn.lock
+  detection_source: api/node_modules/bson/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: babel-preset-es2015
@@ -1248,8 +1281,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15805/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
-  detection_source_url: api/node_modules/sift/yarn.lock
-  detection_source: api/node_modules/sift/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/sift/yarn.lock
+  detection_source: api/node_modules/bson/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: babel-preset-es2015-loose
@@ -1262,7 +1295,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16604/default_89efe0c36fc8b4bbe68d1602c0a217cbe350087e.png
-  detection_source_url: api/node_modules/sift/yarn.lock
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/sift/yarn.lock
   detection_source: api/node_modules/sift/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -1276,7 +1309,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15846/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
-  detection_source_url: api/node_modules/bson/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/bson/package.json
   detection_source: api/node_modules/bson/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -1290,7 +1323,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15865/default_3af1504b6f77c55205ba630fe08c472f43b95f6e.png
-  detection_source_url: api/node_modules/sift/yarn.lock
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/sift/yarn.lock
   detection_source: api/node_modules/bson/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -1304,7 +1337,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18395/default_dc6769b9772560ba4cb2cd0455560c2922e23c92.png
-  detection_source_url: api/node_modules/sift/yarn.lock
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/sift/yarn.lock
   detection_source: api/node_modules/brace-expansion/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -1319,8 +1352,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16241/default_cbc604730ab04341982d806fe402cd0706cc8bf4.png
-  detection_source_url: api/node_modules/sift/yarn.lock
-  detection_source: api/node_modules/vary/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/sift/yarn.lock
+  detection_source: api/node_modules/bson/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: bl
@@ -1334,7 +1367,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17221/default_183829c5079b84333a720d8590a328efc043ba0e.png
-  detection_source_url: api/package-lock.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/package-lock.json
   detection_source: api/node_modules/mongodb/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -1355,8 +1388,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15866/default_01b1499f31f2eff6ed744a57b056e181400df5b2.png
-  detection_source_url: api/node_modules/sift/yarn.lock
-  detection_source: api/node_modules/raw-body/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/sift/yarn.lock
+  detection_source: api/node_modules/bluebird/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: body-parser
@@ -1369,8 +1402,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15906/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
-  detection_source_url: api/package-lock.json
-  detection_source: api/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/package-lock.json
+  detection_source: api/node_modules/bluebird/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: boxen
@@ -1383,7 +1416,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16617/default_bfa6d5d12cc0af739d6b3d4c69dddc66832b1d34.png
-  detection_source_url: api/package-lock.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/package-lock.json
   detection_source: api/node_modules/update-notifier/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -1397,7 +1430,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18603/default_3694958065f9a898b45cef06d5c531dfb4be172f.png
-  detection_source_url: api/node_modules/sift/yarn.lock
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/sift/yarn.lock
   detection_source: api/node_modules/minimatch/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -1411,8 +1444,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17380/default_c1932d441699b98abea6098c6f8f65e2acb4f5ed.png
-  detection_source_url: api/node_modules/sift/yarn.lock
-  detection_source: api/node_modules/sift/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/sift/yarn.lock
+  detection_source: api/node_modules/mongodb/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: buffer
@@ -1425,7 +1458,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16609/default_e654289254bcb9b55e3dca992739e962dc0c7297.png
-  detection_source_url: api/node_modules/sift/yarn.lock
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/sift/yarn.lock
   detection_source: api/node_modules/readable-stream/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -1439,8 +1472,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17201/default_37d9ccc57ae4d32e7ff46614e4f8bb2c4ddc7964.png
-  detection_source_url: api/package-lock.json
-  detection_source: api/node_modules/raw-body/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/package-lock.json
+  detection_source: api/node_modules/body-parser/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: camelcase
@@ -1454,7 +1487,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16559/default_50be6a65e5f7390c20dda2f19371abc1271db012.png
-  detection_source_url: api/node_modules/sift/yarn.lock
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/sift/yarn.lock
   detection_source: api/node_modules/boxen/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -1468,8 +1501,22 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17233/default_9fc4b0c75e3fd0ca34b2b1e215b90fd3d79ddde3.png
-  detection_source_url: api/node_modules/mongodb/package.json
-  detection_source: api/node_modules/readdirp/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/mongodb/package.json
+  detection_source: api/node_modules/mongodb/package.json
+  last_updated_by: Naynesh Rathod
+  last_updated_on: 2020-05-18 08:53:36.000000000 Z
+- name: chalk
+  description: Terminal string styling done right
+  package_url: https://www.npmjs.com/chalk
+  version: 1.1.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15813/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/sift/yarn.lock
+  detection_source: api/node_modules/ansi-align/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: cheerio
@@ -1482,7 +1529,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15949/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
-  detection_source_url: api/node_modules/mongoose/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/mongoose/package.json
   detection_source: api/node_modules/mongoose/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -1496,7 +1543,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16043/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
-  detection_source_url: api/node_modules/sift/yarn.lock
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/sift/yarn.lock
   detection_source: api/node_modules/nodemon/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -1510,7 +1557,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16477/default_2e7c1d6d94467a56325f7c984571015e8713a450.png
-  detection_source_url: api/node_modules/bluebird/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/bluebird/package.json
   detection_source: api/node_modules/bluebird/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -1524,8 +1571,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16007/default_f8be85789693a9901dbcfa43c135c60525ae49a1.png
-  detection_source_url: api/node_modules/sift/yarn.lock
-  detection_source: api/node_modules/require_optional/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/sift/yarn.lock
+  detection_source: api/node_modules/bluebird/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: codelyzer
@@ -1538,7 +1585,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15956/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -1552,8 +1599,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15920/default_1d65e37e65b7f80761374f0202776043277d505d.png
-  detection_source_url: api/node_modules/ipaddr.js/package.json
-  detection_source: api/node_modules/nodemon/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/ipaddr.js/package.json
+  detection_source: api/node_modules/ipaddr.js/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: color-convert
@@ -1566,7 +1613,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18119/image.png
-  detection_source_url: api/node_modules/sift/yarn.lock
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/sift/yarn.lock
   detection_source: api/node_modules/ansi-styles/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -1580,7 +1627,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15908/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/package-lock.json
   detection_source: api/node_modules/bson/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -1594,8 +1641,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16041/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
-  detection_source_url: api/node_modules/debug/package.json
-  detection_source: api/node_modules/nodemon/node_modules/debug/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/debug/package.json
+  detection_source: api/node_modules/debug/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: configstore
@@ -1609,7 +1656,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16988/default_32f63a11ae9faad5eff3053ff1a1600fde8a525b.png
-  detection_source_url: api/node_modules/sift/yarn.lock
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/sift/yarn.lock
   detection_source: api/node_modules/update-notifier/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -1623,7 +1670,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17325/default_6afdd1bc7e3815a18b56c31d0b4acf372c00f6e2.png
-  detection_source_url: api/node_modules/express/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/express/package.json
   detection_source: api/node_modules/express/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -1637,7 +1684,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18396/default_dc6769b9772560ba4cb2cd0455560c2922e23c92.png
-  detection_source_url: api/package-lock.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/package-lock.json
   detection_source: api/node_modules/express/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -1651,8 +1698,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17887/default_788839e3786ca1ccd5da69cc550f25d0129fb180.png
-  detection_source_url: api/package-lock.json
-  detection_source: api/node_modules/express/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/package-lock.json
+  detection_source: api/node_modules/body-parser/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: conventional-changelog-cli
@@ -1665,7 +1712,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16260/default_9924e5da1d50ea01e52b48e4fae4b1347af5e4ff.png
-  detection_source_url: api/node_modules/bson/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/bson/package.json
   detection_source: api/node_modules/bson/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -1679,7 +1726,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16660/default_e654289254bcb9b55e3dca992739e962dc0c7297.png
-  detection_source_url: api/package-lock.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/package-lock.json
   detection_source: api/node_modules/express/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -1693,7 +1740,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16136/default_def3edb85d7fbd20200a5cd7d0a1679e31bc8b3d.png
-  detection_source_url: api/node_modules/express/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/express/package.json
   detection_source: api/node_modules/express/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -1707,7 +1754,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17669/default_4ba4cce198b4498f328ca26971f69b03cf49892a.png
-  detection_source_url: api/node_modules/express/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/express/package.json
   detection_source: api/node_modules/express/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -1721,7 +1768,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18266/default_7f9b12bbc55824c0dff067aa1286b7d2699852f9.png
-  detection_source_url: api/package-lock.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/package-lock.json
   detection_source: api/node_modules/express/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -1735,8 +1782,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18306/default_adee5b58cc2acb885faff4066ee6d7281131005f.png
-  detection_source_url: api/node_modules/sift/yarn.lock
-  detection_source: api/node_modules/string_decoder/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/sift/yarn.lock
+  detection_source: api/node_modules/readable-stream/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: cors
@@ -1749,7 +1796,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16165/default_41f04716a804e853d5c38a5b81ee0ea8a842ad82.png
-  detection_source_url: api/package-lock.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/package-lock.json
   detection_source: api/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -1763,8 +1810,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18700/default_fc5b023c2170b00beeade822bdceeaf129047406.png
-  detection_source_url: api/node_modules/minimist/package.json
-  detection_source: api/node_modules/qs/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/minimist/package.json
+  detection_source: api/node_modules/minimist/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: cpy
@@ -1777,7 +1824,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17731/default_b527ab15473225ca7c2e9b197c9726e92ac97de8.png
-  detection_source_url: api/node_modules/is-installed-globally/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/is-installed-globally/package.json
   detection_source: api/node_modules/is-installed-globally/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -1791,7 +1838,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16069/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
-  detection_source_url: api/node_modules/sift/yarn.lock
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/sift/yarn.lock
   detection_source: api/node_modules/bluebird/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -1805,8 +1852,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17054/default_d17bbf7e4f3b102e29ff09c01b8165e7ba600319.png
-  detection_source_url: api/node_modules/mime-db/package.json
-  detection_source: api/node_modules/statuses/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/mime-db/package.json
+  detection_source: api/node_modules/mime-db/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: debug
@@ -1819,8 +1866,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15852/default_a2f722724df977d0f7752839e5d8845ab41f69d5.png
-  detection_source_url: api/node_modules/sift/yarn.lock
-  detection_source: api/node_modules/undefsafe/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/sift/yarn.lock
+  detection_source: api/node_modules/body-parser/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: deep-equal
@@ -1833,8 +1880,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16405/default_5ffcf8d02a3454bd25d27d236025c6d078c3b672.png
-  detection_source_url: package-lock.json
-  detection_source: api/node_modules/range-parser/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/package-lock.json
+  detection_source: api/node_modules/accepts/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: deep-extend
@@ -1847,7 +1894,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16840/default_5c6919c5e02b8e6c83f3a2b23db5b6962e3caca0.png
-  detection_source_url: api/node_modules/sift/yarn.lock
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/sift/yarn.lock
   detection_source: api/node_modules/rc/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -1861,7 +1908,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15907/default_a582b9fecca65f37fe68520c8f84d3bcae35db24.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/package-lock.json
   detection_source: api/node_modules/is-installed-globally/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -1875,8 +1922,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16349/default_22cf6cee54c697b5a223902962cc57a55ee80be9.png
-  detection_source_url: api/node_modules/@sindresorhus/is/package.json
-  detection_source: api/node_modules/defer-to-connect/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/@sindresorhus/is/package.json
+  detection_source: api/node_modules/@sindresorhus/is/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: delay
@@ -1889,8 +1936,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16897/default_143d92b1fc944107cf48a3ab42a2a347bf3d91b5.png
-  detection_source_url: api/node_modules/cacheable-request/package.json
-  detection_source: api/node_modules/p-cancelable/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/cacheable-request/package.json
+  detection_source: api/node_modules/cacheable-request/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: depd
@@ -1903,8 +1950,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17670/default_4ba4cce198b4498f328ca26971f69b03cf49892a.png
-  detection_source_url: api/package-lock.json
-  detection_source: api/node_modules/send/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/package-lock.json
+  detection_source: api/node_modules/body-parser/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: dot-prop
@@ -1917,7 +1964,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17800/default_78858facb60c08d15198eb69a6c7f48463f2c09f.png
-  detection_source_url: api/package-lock.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/package-lock.json
   detection_source: api/node_modules/configstore/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -1931,7 +1978,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17560/default_3c6aa8b4297562bfc2a090966a5bc0fad1d0b678.png
-  detection_source_url: api/node_modules/mongoose/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/mongoose/package.json
   detection_source: api/node_modules/mongoose/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -1945,8 +1992,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17130/default_747c790463912ea0e3a85597146d9c13d6a53db9.png
-  detection_source_url: api/node_modules/chokidar/package.json
-  detection_source: api/node_modules/readdirp/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/chokidar/package.json
+  detection_source: api/node_modules/chokidar/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: ejs
@@ -1959,7 +2006,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16045/default_a9b6ac3c2fe43713f9a8e43d4668d0352ad0d247.png
-  detection_source_url: api/node_modules/express/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/express/package.json
   detection_source: api/node_modules/express/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -1981,7 +2028,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17795/default_a3a8e3ccb38174acb180f0920c5d4e2fea848911.png
-  detection_source_url: api/node_modules/sift/yarn.lock
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/sift/yarn.lock
   detection_source: api/node_modules/pump/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -1996,7 +2043,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16051/default_924b66c04aa848a4028c1a5753a23dae0f835f86.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/package-lock.json
   detection_source: api/node_modules/require_optional/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -2010,8 +2057,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17037/default_88e2e076a71afdc1de87ad42c80c1606f2689af1.png
-  detection_source_url: api/package-lock.json
-  detection_source: api/node_modules/serve-static/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/package-lock.json
+  detection_source: api/node_modules/express/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: eslint-config-standard
@@ -2024,8 +2071,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15872/default_e4668902f8489350db9b0fb228523a571ef05b26.png
-  detection_source_url: api/node_modules/accepts/package.json
-  detection_source: api/node_modules/vary/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/accepts/package.json
+  detection_source: api/node_modules/accepts/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: eslint-plugin-import
@@ -2038,8 +2085,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15806/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
-  detection_source_url: api/node_modules/accepts/package.json
-  detection_source: api/node_modules/vary/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/accepts/package.json
+  detection_source: api/node_modules/accepts/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: eslint-plugin-markdown
@@ -2052,8 +2099,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16770/default_6e51a44775c61dcb2888547ad406a2f0cf2c344e.png
-  detection_source_url: api/node_modules/accepts/package.json
-  detection_source: api/node_modules/vary/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/accepts/package.json
+  detection_source: api/node_modules/accepts/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: eslint-plugin-node
@@ -2066,8 +2113,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15874/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
-  detection_source_url: api/node_modules/accepts/package.json
-  detection_source: api/node_modules/vary/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/accepts/package.json
+  detection_source: api/node_modules/accepts/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: eslint-plugin-prettier
@@ -2080,8 +2127,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15896/default_6e6e1d6bb189c8bb26c6410618bd597979578f39.png
-  detection_source_url: api/node_modules/http-cache-semantics/package.json
-  detection_source: api/node_modules/mongodb/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/http-cache-semantics/package.json
+  detection_source: api/node_modules/http-cache-semantics/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: eslint-plugin-promise
@@ -2094,8 +2141,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15885/default_1d65e37e65b7f80761374f0202776043277d505d.png
-  detection_source_url: api/node_modules/accepts/package.json
-  detection_source: api/node_modules/vary/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/accepts/package.json
+  detection_source: api/node_modules/accepts/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: eslint-plugin-standard
@@ -2108,8 +2155,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15884/default_1d65e37e65b7f80761374f0202776043277d505d.png
-  detection_source_url: api/node_modules/accepts/package.json
-  detection_source: api/node_modules/vary/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/accepts/package.json
+  detection_source: api/node_modules/accepts/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: etag
@@ -2122,8 +2169,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17743/default_552addbbff67ec0ef62ce1d229e112d14ca818f5.png
-  detection_source_url: api/package-lock.json
-  detection_source: api/node_modules/send/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/package-lock.json
+  detection_source: api/node_modules/express/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: execa
@@ -2136,8 +2183,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16132/default_3d197518f6bb529bfcc1b685e2cefbdfe83ff108.png
-  detection_source_url: api/node_modules/sift/yarn.lock
-  detection_source: api/node_modules/term-size/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/sift/yarn.lock
+  detection_source: api/node_modules/chalk/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: expect
@@ -2150,7 +2197,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16110/default_efe4f0184d007a28e793d89a59e058b742bc9177.png
-  detection_source_url: api/node_modules/glob-parent/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/glob-parent/package.json
   detection_source: api/node_modules/glob-parent/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -2164,8 +2211,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16029/default_261820f5687b4c88a3e8f95c71b5e8dccd34c1d7.png
-  detection_source_url: api/node_modules/mongoose/node_modules/ms/package.json
-  detection_source: api/node_modules/send/node_modules/ms/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/mongoose/node_modules/ms/package.json
+  detection_source: api/node_modules/mongoose/node_modules/ms/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: express
@@ -2178,8 +2225,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15818/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
-  detection_source_url: api/package-lock.json
-  detection_source: api/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/package-lock.json
+  detection_source: api/node_modules/cors/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
   vulnerabilities:
@@ -2199,7 +2246,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16239/default_180418c6fa6cdb8f7a3500f84a8fedb884fcb3fa.png
-  detection_source_url: api/node_modules/express/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/express/package.json
   detection_source: api/node_modules/express/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -2213,7 +2260,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16457/default_fc6e1fc17e404d936593b5b901d67abb3386daa3.png
-  detection_source_url: api/node_modules/bl/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/bl/package.json
   detection_source: api/node_modules/bl/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -2227,7 +2274,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17105/default_faf55ef1f2892d4dcce54ed77892756797ff34e1.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/package-lock.json
   detection_source: api/node_modules/ignore-by-default/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -2241,7 +2288,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17238/default_747c790463912ea0e3a85597146d9c13d6a53db9.png
-  detection_source_url: api/package-lock.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/package-lock.json
   detection_source: api/node_modules/express/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -2255,7 +2302,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16415/default_aa91da3cee4d961f0eea8ca5de77f399ec7ec794.png
-  detection_source_url: api/node_modules/sift/yarn.lock
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/sift/yarn.lock
   detection_source: api/node_modules/got/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -2269,8 +2316,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18037/default_d8756eea8d13a271fb42437ffb36c0a116d72925.png
-  detection_source_url: api/package-lock.json
-  detection_source: api/node_modules/send/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/package-lock.json
+  detection_source: api/node_modules/express/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: fsevents
@@ -2283,7 +2330,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16323/default_e8196e273db814cf9be505b35dec386fafb0dbaa.png
-  detection_source_url: api/node_modules/sift/yarn.lock
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/sift/yarn.lock
   detection_source: api/node_modules/chokidar/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -2304,7 +2351,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16732/default_ee69dab268e6a52104564fd4259549f5b48a25d4.png
-  detection_source_url: api/node_modules/got/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/got/package.json
   detection_source: api/node_modules/got/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -2318,8 +2365,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18041/image.png
-  detection_source_url: api/node_modules/sift/yarn.lock
-  detection_source: api/node_modules/to-readable-stream/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/sift/yarn.lock
+  detection_source: api/node_modules/cacheable-request/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: glob
@@ -2332,7 +2379,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15875/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
-  detection_source_url: api/node_modules/sift/yarn.lock
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/sift/yarn.lock
   detection_source: api/node_modules/bluebird/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -2346,7 +2393,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16258/default_ab17554b7e80af3d234b14168ed61e75d43f8eee.png
-  detection_source_url: api/node_modules/sift/yarn.lock
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/sift/yarn.lock
   detection_source: api/node_modules/package-json/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -2367,8 +2414,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16375/default_c47f6a56d74fae4d4404d77067b2fa35da6f1924.png
-  detection_source_url: api/node_modules/sift/yarn.lock
-  detection_source: api/node_modules/make-dir/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/sift/yarn.lock
+  detection_source: api/node_modules/configstore/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: grunt-saucelabs
@@ -2381,7 +2428,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17562/default_3c6aa8b4297562bfc2a090966a5bc0fad1d0b678.png
-  detection_source_url: api/node_modules/bluebird/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/bluebird/package.json
   detection_source: api/node_modules/bluebird/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -2395,8 +2442,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17009/default_0e6669b56ffe7d68d8118eb8e85d024215fd5906.png
-  detection_source_url: api/node_modules/braces/package.json
-  detection_source: api/node_modules/to-regex-range/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/braces/package.json
+  detection_source: api/node_modules/braces/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: hbs
@@ -2409,7 +2456,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17878/default_788839e3786ca1ccd5da69cc550f25d0129fb180.png
-  detection_source_url: api/node_modules/express/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/express/package.json
   detection_source: api/node_modules/express/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -2431,7 +2478,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17454/default_2a4dc012d9584af49ba34825451ae7a5a8d75e4b.png
-  detection_source_url: api/node_modules/bluebird/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/bluebird/package.json
   detection_source: api/node_modules/bluebird/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -2445,8 +2492,22 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16925/default_7b9968788548874538c601457e8dcd9c74bd2051.png
-  detection_source_url: api/package-lock.json
-  detection_source: api/node_modules/send/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/package-lock.json
+  detection_source: api/node_modules/body-parser/package.json
+  last_updated_by: Naynesh Rathod
+  last_updated_on: 2020-05-18 08:53:36.000000000 Z
+- name: husky
+  description: Prevents bad commit or push
+  package_url: https://www.npmjs.com/husky
+  version: 0.14.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15831/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/http-cache-semantics/package.json
+  detection_source: api/node_modules/http-cache-semantics/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: iconv
@@ -2458,6 +2519,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17911/default_40b5ae806e118a20c1717c75a46652a7358d8b42.png
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/iconv-lite/package.json
   detection_source: api/node_modules/iconv-lite/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -2471,8 +2533,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16350/default_4cc3f31b8c64a6268fc123f0965a09d1b11180af.png
-  detection_source_url: api/node_modules/sift/yarn.lock
-  detection_source: api/node_modules/raw-body/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/sift/yarn.lock
+  detection_source: api/node_modules/body-parser/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: immutable
@@ -2485,7 +2547,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16070/default_8725384794b44fe56f31da1d21ae759cf07be7a5.png
-  detection_source_url: api/node_modules/sift/yarn.lock
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/sift/yarn.lock
   detection_source: api/node_modules/sift/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -2500,8 +2562,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16376/default_17385ab3aa01d4c295c08d4a9736140df691c5e9.png
-  detection_source_url: api/node_modules/sift/yarn.lock
-  detection_source: api/node_modules/string_decoder/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/sift/yarn.lock
+  detection_source: api/node_modules/http-errors/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: ini
@@ -2514,8 +2576,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16594/default_ebd83b4f0415be108d977ea72558b13fd7c5283d.png
-  detection_source_url: api/node_modules/sift/yarn.lock
-  detection_source: api/node_modules/rc/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/sift/yarn.lock
+  detection_source: api/node_modules/global-dirs/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
   vulnerabilities:
@@ -2535,7 +2597,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18686/default_aa04137358f471f73d601f7d8b94126c37bdd90c.png
-  detection_source_url: api/package-lock.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/package-lock.json
   detection_source: api/node_modules/proxy-addr/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -2549,7 +2611,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18090/image.png
-  detection_source_url: api/package-lock.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/package-lock.json
   detection_source: api/node_modules/update-notifier/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -2564,8 +2626,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18446/default_ce264c1dd64cc60a7887273861f96d765d5ebde0.png
-  detection_source_url: api/node_modules/sift/yarn.lock
-  detection_source: api/node_modules/glob-parent/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/sift/yarn.lock
+  detection_source: api/node_modules/chokidar/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: isarray
@@ -2578,7 +2640,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17568/default_3c6aa8b4297562bfc2a090966a5bc0fad1d0b678.png
-  detection_source_url: api/node_modules/sift/yarn.lock
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/sift/yarn.lock
   detection_source: api/node_modules/readable-stream/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -2594,8 +2656,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15833/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
-  detection_source_url: api/node_modules/sift/yarn.lock
-  detection_source: api/node_modules/vary/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/sift/yarn.lock
+  detection_source: api/node_modules/array-flatten/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: jasmine-core
@@ -2608,7 +2670,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15905/default_3af1504b6f77c55205ba630fe08c472f43b95f6e.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -2622,7 +2684,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16066/default_8725384794b44fe56f31da1d21ae759cf07be7a5.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -2636,7 +2698,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16176/default_ac04a744873b460c4ef30a7450ed0c83223640ab.png
-  detection_source_url: api/node_modules/nodemon/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/nodemon/package.json
   detection_source: api/node_modules/nodemon/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -2650,7 +2712,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16031/default_261820f5687b4c88a3e8f95c71b5e8dccd34c1d7.png
-  detection_source_url: api/node_modules/bluebird/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/bluebird/package.json
   detection_source: api/node_modules/bluebird/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -2664,8 +2726,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16177/default_9a7a7dcd69c12c746dc4000dc4d1b75758079c9f.png
-  detection_source_url: api/node_modules/debug/package.json
-  detection_source: api/node_modules/nodemon/node_modules/debug/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/debug/package.json
+  detection_source: api/node_modules/debug/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: karma-chrome-launcher
@@ -2678,7 +2740,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15860/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -2692,7 +2754,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15998/default_f8be85789693a9901dbcfa43c135c60525ae49a1.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -2706,7 +2768,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15886/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -2720,7 +2782,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15999/default_7a465bc85b23fd837cbc038fd1d504632c41a884.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -2734,8 +2796,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15962/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
-  detection_source_url: api/node_modules/debug/package.json
-  detection_source: api/node_modules/nodemon/node_modules/debug/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/debug/package.json
+  detection_source: api/node_modules/debug/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: karma-phantomjs-launcher
@@ -2748,8 +2810,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15947/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
-  detection_source_url: api/node_modules/debug/package.json
-  detection_source: api/node_modules/nodemon/node_modules/debug/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/debug/package.json
+  detection_source: api/node_modules/debug/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: karma-sinon
@@ -2762,8 +2824,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16601/default_5a21421012fa20e57fe0aeab31228f42e7118abc.png
-  detection_source_url: api/node_modules/debug/package.json
-  detection_source: api/node_modules/mquery/node_modules/debug/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/debug/package.json
+  detection_source: api/node_modules/debug/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: latest-version
@@ -2776,8 +2838,22 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17888/default_3bc64391130859f94a137a7dc6cb87cd54da546b.png
-  detection_source_url: api/node_modules/sift/yarn.lock
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/sift/yarn.lock
   detection_source: api/node_modules/update-notifier/package.json
+  last_updated_by: Naynesh Rathod
+  last_updated_on: 2020-05-18 08:53:36.000000000 Z
+- name: lint-staged
+  description: Lint files staged by git
+  package_url: https://www.npmjs.com/lint-staged
+  version: 8.1.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15868/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/http-cache-semantics/package.json
+  detection_source: api/node_modules/http-cache-semantics/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: lodash.camelcase
@@ -2790,7 +2866,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16436/default_aa91da3cee4d961f0eea8ca5de77f399ec7ec794.png
-  detection_source_url: api/node_modules/mongodb/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/mongodb/package.json
   detection_source: api/node_modules/mongodb/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -2804,7 +2880,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16523/default_28df1e698b81279fa78b702212cd6185de706683.png
-  detection_source_url: api/node_modules/mongoose/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/mongoose/package.json
   detection_source: api/node_modules/mongoose/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -2818,7 +2894,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16378/default_9fc2581a53b2f4e6797b1162eca9d9d2f6deee1f.png
-  detection_source_url: api/node_modules/readable-stream/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/readable-stream/package.json
   detection_source: api/node_modules/readable-stream/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -2832,8 +2908,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17686/default_52c11a434d2ce37281914a7f804e07cf95ab96f7.png
-  detection_source_url: api/node_modules/sift/yarn.lock
-  detection_source: api/node_modules/is-installed-globally/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/sift/yarn.lock
+  detection_source: api/node_modules/configstore/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: marked
@@ -2846,20 +2922,20 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16065/default_c7b204838197013798409fa2b4dafce450edc7fb.png
-  detection_source_url: api/node_modules/express/package.json
-  detection_source: api/node_modules/mongoose/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/express/package.json
+  detection_source: api/node_modules/express/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
   vulnerabilities:
   - name: Inefficient Regular Expression Complexity in marked
-    cve_id: CVE-2022-21680
-    cve_url: https://github.com/advisories/GHSA-rrrm-qjm4-v8hf
+    cve_id: CVE-2022-21681
+    cve_url: https://github.com/advisories/GHSA-5v2h-r2cx-5xgj
     detected_date: Jan 15
     severity: high
     first_patched: 4.0.10
   - name: Inefficient Regular Expression Complexity in marked
-    cve_id: CVE-2022-21681
-    cve_url: https://github.com/advisories/GHSA-5v2h-r2cx-5xgj
+    cve_id: CVE-2022-21680
+    cve_url: https://github.com/advisories/GHSA-rrrm-qjm4-v8hf
     detected_date: Jan 15
     severity: high
     first_patched: 4.0.10
@@ -2879,8 +2955,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18117/image.png
-  detection_source_url: api/node_modules/balanced-match/package.json
-  detection_source: api/node_modules/object-assign/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/balanced-match/package.json
+  detection_source: api/node_modules/balanced-match/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: merge-descriptors
@@ -2893,7 +2969,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18485/default_3ec0464ac20686e95d789b41ae623e935100ada7.png
-  detection_source_url: api/package-lock.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/package-lock.json
   detection_source: api/node_modules/express/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -2907,7 +2983,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16758/default_92482df1bcbe0d3a46cc1d597c9687a42da1cd04.png
-  detection_source_url: api/node_modules/express/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/express/package.json
   detection_source: api/node_modules/express/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -2921,8 +2997,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17145/default_0ffbf6d9ee2940fe94be8424fd9afff068fff458.png
-  detection_source_url: api/package-lock.json
-  detection_source: api/node_modules/express/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/package-lock.json
+  detection_source: api/node_modules/body-parser/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: mime
@@ -2935,7 +3011,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16182/default_ac04a744873b460c4ef30a7450ed0c83223640ab.png
-  detection_source_url: api/package-lock.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/package-lock.json
   detection_source: api/node_modules/send/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -2949,8 +3025,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18701/default_803d9095ae52cd39a90bd905df9c2e4583f75904.png
-  detection_source_url: api/node_modules/sift/yarn.lock
-  detection_source: api/node_modules/mime/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/sift/yarn.lock
+  detection_source: api/node_modules/mime-types/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: mime-types
@@ -2963,8 +3039,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16448/default_89ba91277e3434b03295bb11d22736632df1d04f.png
-  detection_source_url: api/node_modules/sift/yarn.lock
-  detection_source: api/node_modules/type-is/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/sift/yarn.lock
+  detection_source: api/node_modules/accepts/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: minimatch
@@ -2977,7 +3053,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16195/default_180418c6fa6cdb8f7a3500f84a8fedb884fcb3fa.png
-  detection_source_url: api/node_modules/sift/yarn.lock
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/sift/yarn.lock
   detection_source: api/node_modules/nodemon/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -2998,8 +3074,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15918/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
-  detection_source_url: api/node_modules/sift/yarn.lock
-  detection_source: api/node_modules/rc/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/sift/yarn.lock
+  detection_source: api/node_modules/normalize-path/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
   vulnerabilities:
@@ -3031,8 +3107,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15881/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
-  detection_source_url: api/node_modules/sift/yarn.lock
-  detection_source: api/node_modules/write-file-atomic/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/sift/yarn.lock
+  detection_source: api/node_modules/bluebird/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: mocha-lcov-reporter
@@ -3045,8 +3121,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16120/default_63a34654baee757196ddff2457bd1c9a0dfb7287.png
-  detection_source_url: api/node_modules/debug/package.json
-  detection_source: api/node_modules/nodemon/node_modules/debug/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/debug/package.json
+  detection_source: api/node_modules/debug/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: mocha-sinon
@@ -3059,7 +3135,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17842/default_b760b4f955878b0055c02bde0608c2f01e7d4f4f.png
-  detection_source_url: api/node_modules/mongodb/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/mongodb/package.json
   detection_source: api/node_modules/mongodb/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -3073,7 +3149,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16983/default_7a9e63a9526bf5da91e7a6f9f792b13e3543a875.png
-  detection_source_url: api/node_modules/update-notifier/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/update-notifier/package.json
   detection_source: api/node_modules/update-notifier/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -3086,6 +3162,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15847/default_4479dbac220be99e50e724b2df6cf415241d71fd.png
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/mongoose/package.json
   detection_source: api/node_modules/mongoose/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -3099,7 +3176,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16097/default_c7b204838197013798409fa2b4dafce450edc7fb.png
-  detection_source_url: api/node_modules/express/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/express/package.json
   detection_source: api/node_modules/express/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -3113,8 +3190,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16565/default_536789d2630ed352dc721a1c915ab456b7660201.png
-  detection_source_url: api/node_modules/sift/yarn.lock
-  detection_source: api/node_modules/send/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/sift/yarn.lock
+  detection_source: api/node_modules/debug/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: multiparty
@@ -3127,7 +3204,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17690/default_e87994647b10b361432e73d1831e5982307760e2.png
-  detection_source_url: api/node_modules/express/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/express/package.json
   detection_source: api/node_modules/express/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -3141,7 +3218,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16814/default_31a4e0e11d348225088320f3a5c5ea6fa49c27ad.png
-  detection_source_url: api/node_modules/mongoose/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/mongoose/package.json
   detection_source: api/node_modules/mongoose/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -3168,8 +3245,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16216/default_180418c6fa6cdb8f7a3500f84a8fedb884fcb3fa.png
-  detection_source_url: api/node_modules/bson/package.json
-  detection_source: api/node_modules/ipaddr.js/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/bson/package.json
+  detection_source: api/node_modules/bson/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: nopt
@@ -3182,7 +3259,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16662/default_cc0f40a737548852d2ee666c132c258c9a2c0cad.png
-  detection_source_url: api/node_modules/sift/yarn.lock
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/sift/yarn.lock
   detection_source: api/node_modules/touch/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -3196,8 +3273,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18102/image.png
-  detection_source_url: api/node_modules/sift/yarn.lock
-  detection_source: api/node_modules/chokidar/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/sift/yarn.lock
+  detection_source: api/node_modules/anymatch/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: normalize-url
@@ -3210,7 +3287,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17765/default_abcc2eea82e62d338a749f334647866df76198b8.png
-  detection_source_url: api/package-lock.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/package-lock.json
   detection_source: api/node_modules/cacheable-request/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -3231,7 +3308,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16247/default_5dfc1810d0882ab844578a326bb8bf19e45e7227.png
-  detection_source_url: api/node_modules/got/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/got/package.json
   detection_source: api/node_modules/got/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -3245,8 +3322,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15837/default_1d65e37e65b7f80761374f0202776043277d505d.png
-  detection_source_url: api/node_modules/@szmarczak/http-timer/package.json
-  detection_source: api/node_modules/type-is/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/@szmarczak/http-timer/package.json
+  detection_source: api/node_modules/@szmarczak/http-timer/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: object-assign
@@ -3259,7 +3336,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16015/default_7a88bebb451873cc63bd99007de5bd3bb8ef85de.png
-  detection_source_url: api/node_modules/sift/yarn.lock
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/sift/yarn.lock
   detection_source: api/node_modules/cors/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -3273,8 +3350,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17498/default_e5adc22c59a44962e41dfaec51edeb42c083f2f4.png
-  detection_source_url: api/package-lock.json
-  detection_source: api/node_modules/send/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/package-lock.json
+  detection_source: api/node_modules/body-parser/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: once
@@ -3287,8 +3364,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16859/default_884deeafc4d4b680b6d9cb7e3759ba2db025e8e7.png
-  detection_source_url: api/node_modules/sift/yarn.lock
-  detection_source: api/node_modules/pump/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/sift/yarn.lock
+  detection_source: api/node_modules/end-of-stream/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: open
@@ -3301,7 +3378,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16245/default_5dfc1810d0882ab844578a326bb8bf19e45e7227.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/package-lock.json
   detection_source: api/node_modules/bluebird/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -3315,7 +3392,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16145/default_ac04a744873b460c4ef30a7450ed0c83223640ab.png
-  detection_source_url: api/node_modules/sift/yarn.lock
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/sift/yarn.lock
   detection_source: api/node_modules/bluebird/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -3329,8 +3406,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17347/default_b8b4be8bd54f9619446b80b2bf448c0891101f2a.png
-  detection_source_url: api/package-lock.json
-  detection_source: api/node_modules/serve-static/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/package-lock.json
+  detection_source: api/node_modules/express/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: path-to-regexp
@@ -3343,7 +3420,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16316/default_97104dc50154593d2dde1d791400955934c9c715.png
-  detection_source_url: api/package-lock.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/package-lock.json
   detection_source: api/node_modules/express/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -3357,7 +3434,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18137/default_440caaaee595e35f6bfab82d7f75dc25a80312ce.png
-  detection_source_url: api/node_modules/got/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/got/package.json
   detection_source: api/node_modules/got/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -3371,8 +3448,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16440/default_89ba91277e3434b03295bb11d22736632df1d04f.png
-  detection_source_url: api/node_modules/sift/yarn.lock
-  detection_source: api/node_modules/mimic-response/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/sift/yarn.lock
+  detection_source: api/node_modules/cacheable-request/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: prettier-eslint-cli
@@ -3385,7 +3462,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16620/default_9012166d3e51cea5db6b4e69c80ace1c50b7509d.png
-  detection_source_url: api/node_modules/http-cache-semantics/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/http-cache-semantics/package.json
   detection_source: api/node_modules/http-cache-semantics/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -3400,8 +3477,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16138/default_63a34654baee757196ddff2457bd1c9a0dfb7287.png
-  detection_source_url: api/node_modules/got/package.json
-  detection_source: api/node_modules/nodemon/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/got/package.json
+  detection_source: api/node_modules/got/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: pug
@@ -3414,7 +3491,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16227/default_ab17554b7e80af3d234b14168ed61e75d43f8eee.png
-  detection_source_url: api/node_modules/mongoose/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/mongoose/package.json
   detection_source: api/node_modules/mongoose/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -3435,8 +3512,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16623/default_cc0f40a737548852d2ee666c132c258c9a2c0cad.png
-  detection_source_url: api/node_modules/sift/yarn.lock
-  detection_source: api/node_modules/get-stream/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/sift/yarn.lock
+  detection_source: api/node_modules/cacheable-request/node_modules/get-stream/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: q
@@ -3449,7 +3526,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15974/default_f49d4c116f8ea0155f4d92673b084378bba02760.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/package-lock.json
   detection_source: api/node_modules/mongoose/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -3463,8 +3540,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16125/default_def3edb85d7fbd20200a5cd7d0a1679e31bc8b3d.png
-  detection_source_url: api/node_modules/sift/yarn.lock
-  detection_source: api/node_modules/express/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/sift/yarn.lock
+  detection_source: api/node_modules/body-parser/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
   vulnerabilities:
@@ -3484,8 +3561,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18315/default_f1e168ebe0f124084b9a0acbe78bc5cdba7b4575.png
-  detection_source_url: api/package-lock.json
-  detection_source: api/node_modules/send/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/package-lock.json
+  detection_source: api/node_modules/express/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: raw-body
@@ -3498,8 +3575,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17336/default_66bbb2a75a0234b1bfceaa99b8e82825fa7b8284.png
-  detection_source_url: api/package-lock.json
-  detection_source: api/node_modules/statuses/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/package-lock.json
+  detection_source: api/node_modules/body-parser/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: rc
@@ -3512,8 +3589,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16813/default_5c6919c5e02b8e6c83f3a2b23db5b6962e3caca0.png
-  detection_source_url: api/node_modules/sift/yarn.lock
-  detection_source: api/node_modules/registry-url/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/sift/yarn.lock
+  detection_source: api/node_modules/registry-auth-token/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: readable-stream
@@ -3526,8 +3603,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16322/default_97104dc50154593d2dde1d791400955934c9c715.png
-  detection_source_url: api/node_modules/sift/yarn.lock
-  detection_source: api/node_modules/unpipe/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/sift/yarn.lock
+  detection_source: api/node_modules/bl/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: readdirp
@@ -3540,7 +3617,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17897/default_788839e3786ca1ccd5da69cc550f25d0129fb180.png
-  detection_source_url: api/node_modules/sift/yarn.lock
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/sift/yarn.lock
   detection_source: api/node_modules/chokidar/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -3554,7 +3631,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15823/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
-  detection_source_url: api/node_modules/sift/yarn.lock
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/sift/yarn.lock
   detection_source: api/node_modules/iconv-lite/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -3575,8 +3652,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17861/default_78858facb60c08d15198eb69a6c7f48463f2c09f.png
-  detection_source_url: api/node_modules/sift/yarn.lock
-  detection_source: api/node_modules/require_optional/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/sift/yarn.lock
+  detection_source: api/node_modules/chalk/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: rimraf
@@ -3589,8 +3666,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15807/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
-  detection_source_url: api/node_modules/sift/yarn.lock
-  detection_source: api/node_modules/write-file-atomic/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/sift/yarn.lock
+  detection_source: api/node_modules/bluebird/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: rx
@@ -3603,7 +3680,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16783/default_6e51a44775c61dcb2888547ad406a2f0cf2c344e.png
-  detection_source_url: api/node_modules/bluebird/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/bluebird/package.json
   detection_source: api/node_modules/bluebird/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -3618,7 +3695,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16746/default_6e51a44775c61dcb2888547ad406a2f0cf2c344e.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -3632,8 +3709,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16801/default_dc62f5e9b636403c2d19676924f5b6b881abcac8.png
-  detection_source_url: api/node_modules/sift/yarn.lock
-  detection_source: api/node_modules/string_decoder/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/sift/yarn.lock
+  detection_source: api/node_modules/bl/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: safe-publish-latest
@@ -3646,7 +3723,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17965/default_fc5f66cf44024e173fd07c415d4f30ca58b4cbad.png
-  detection_source_url: api/node_modules/qs/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/qs/package.json
   detection_source: api/node_modules/qs/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -3660,10 +3737,31 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17815/default_78858facb60c08d15198eb69a6c7f48463f2c09f.png
-  detection_source_url: api/node_modules/etag/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/etag/package.json
   detection_source: api/node_modules/etag/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
+- name: semantic-release
+  description: Automated semver compliant package publishing
+  package_url: https://www.npmjs.com/semantic-release
+  version: 8.2.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15935/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/nodemon/package.json
+  detection_source: api/node_modules/nodemon/package.json
+  last_updated_by: Naynesh Rathod
+  last_updated_on: 2020-05-18 08:53:36.000000000 Z
+  vulnerabilities:
+  - name: Secret disclosure when containing characters that become URI encoded
+    cve_id: CVE-2020-26226
+    cve_url: https://github.com/advisories/GHSA-r2j6-p67h-q639
+    detected_date: Aug 22
+    severity: high
+    first_patched: 17.2.3
 - name: send
   description: Better streaming static file server with Range and conditional-GET
     support
@@ -3675,8 +3773,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17093/default_1dbf402c11ef653fcaedc84e608a244e30ebfb87.png
-  detection_source_url: api/package-lock.json
-  detection_source: api/node_modules/serve-static/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/package-lock.json
+  detection_source: api/node_modules/express/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: serve-static
@@ -3689,8 +3787,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16295/default_f04d39fc656c2e32ee1b9d3875a3002459aa3b69.png
-  detection_source_url: api/package-lock.json
-  detection_source: api/node_modules/express/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/package-lock.json
+  detection_source: api/node_modules/bluebird/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: should
@@ -3703,8 +3801,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15871/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
-  detection_source_url: api/node_modules/deep-extend/package.json
-  detection_source: api/node_modules/nodemon/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/deep-extend/package.json
+  detection_source: api/node_modules/cookie-signature/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: sift
@@ -3717,7 +3815,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18507/default_bcf2e36c9cf75d93afc709672b42a79da51a3526.png
-  detection_source_url: api/package-lock.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/package-lock.json
   detection_source: api/node_modules/mongoose/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -3731,8 +3829,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15914/default_1d65e37e65b7f80761374f0202776043277d505d.png
-  detection_source_url: api/node_modules/chokidar/package.json
-  detection_source: api/node_modules/mquery/node_modules/debug/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/chokidar/package.json
+  detection_source: api/node_modules/chokidar/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: sliced
@@ -3745,8 +3843,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18707/default_22a7c9a71242cf93733f1dbfcc92b079d9acd3fe.png
-  detection_source_url: api/package-lock.json
-  detection_source: api/node_modules/mquery/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/package-lock.json
+  detection_source: api/node_modules/mongoose/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: sqlite3
@@ -3759,7 +3857,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16285/default_3b7197abc4df3d7fa7c5292f17b2e6fb0cd1c8d4.png
-  detection_source_url: api/node_modules/cacheable-request/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/cacheable-request/package.json
   detection_source: api/node_modules/cacheable-request/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -3773,8 +3871,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15878/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
-  detection_source_url: api/node_modules/ansi-align/package.json
-  detection_source: api/node_modules/write-file-atomic/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/ansi-align/package.json
+  detection_source: api/node_modules/ansi-align/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: standard-version
@@ -3787,8 +3885,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16053/default_924b66c04aa848a4028c1a5753a23dae0f835f86.png
-  detection_source_url: api/node_modules/ansi-align/package.json
-  detection_source: api/node_modules/signal-exit/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/ansi-align/package.json
+  detection_source: api/node_modules/ansi-align/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
   vulnerabilities:
@@ -3808,8 +3906,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18232/default_006273ebad013729e0798e0376579caca9efaa4e.png
-  detection_source_url: api/package-lock.json
-  detection_source: api/node_modules/send/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/package-lock.json
+  detection_source: api/node_modules/express/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: string-width
@@ -3823,8 +3921,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17879/default_369b3bf3ef062123a581e4817f09cb0004de7ff6.png
-  detection_source_url: api/node_modules/sift/yarn.lock
-  detection_source: api/node_modules/widest-line/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/sift/yarn.lock
+  detection_source: api/node_modules/ansi-align/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: strip-ansi
@@ -3837,8 +3935,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16331/default_97104dc50154593d2dde1d791400955934c9c715.png
-  detection_source_url: api/node_modules/sift/yarn.lock
-  detection_source: api/node_modules/update-notifier/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/sift/yarn.lock
+  detection_source: api/node_modules/ansi-align/node_modules/string-width/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: strip-json-comments
@@ -3851,7 +3949,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16973/default_caea01ce44a5fd1bb200d8fc0f8f2a1695b4e569.png
-  detection_source_url: api/node_modules/sift/yarn.lock
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/sift/yarn.lock
   detection_source: api/node_modules/rc/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -3865,8 +3963,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17084/default_23002b02644a8cb313a0f53f43df271731022a9e.png
-  detection_source_url: api/node_modules/sift/yarn.lock
-  detection_source: api/node_modules/nodemon/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/sift/yarn.lock
+  detection_source: api/node_modules/chalk/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: tap
@@ -3879,8 +3977,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16027/default_af9df0bc9fa88191d2fe609204c5bd7599c1a797.png
-  detection_source_url: api/node_modules/abbrev/package.json
-  detection_source: api/node_modules/write-file-atomic/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/abbrev/package.json
+  detection_source: api/node_modules/abbrev/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: tape
@@ -3893,8 +3991,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15856/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
-  detection_source_url: api/node_modules/balanced-match/package.json
-  detection_source: api/node_modules/typedarray-to-buffer/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/balanced-match/package.json
+  detection_source: api/node_modules/balanced-match/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: tempfile
@@ -3907,7 +4005,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18336/default_ee96f9207d5179911f1b284ce301920711f47528.png
-  detection_source_url: api/node_modules/got/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/got/package.json
   detection_source: api/node_modules/got/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -3921,8 +4019,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17057/default_32da0e64c9ec90f8f302a76668f802f1f4d08177.png
-  detection_source_url: api/node_modules/@sindresorhus/is/package.json
-  detection_source: api/node_modules/make-dir/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/@sindresorhus/is/package.json
+  detection_source: api/node_modules/@sindresorhus/is/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: text-table
@@ -3935,7 +4033,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17277/default_03da3f7f53e439ab3b23ec47828b2f3229885efd.png
-  detection_source_url: api/node_modules/to-regex-range/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/to-regex-range/package.json
   detection_source: api/node_modules/to-regex-range/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -3949,7 +4047,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18304/default_d05de2d31ff2708c984b6c11ea3c9ff07c2a4764.png
-  detection_source_url: api/node_modules/keyv/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/keyv/package.json
   detection_source: api/node_modules/keyv/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -3963,7 +4061,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17029/default_8ef738cb63f629c8e87903029b82b45840ab75a3.png
-  detection_source_url: api/node_modules/sift/yarn.lock
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/sift/yarn.lock
   detection_source: api/node_modules/nodemon/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -3977,7 +4075,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17146/default_9746cbb559e39df4afd8298f9a252dff8519e646.png
-  detection_source_url: api/node_modules/sift/yarn.lock
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/sift/yarn.lock
   detection_source: api/node_modules/got/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -3998,8 +4096,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15830/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
-  detection_source_url: package-lock.json
-  detection_source: package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/package-lock.json
+  detection_source: api/node_modules/defer-to-connect/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: tsd
@@ -4012,8 +4110,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16858/default_21db97bdb9f4092d80f256d3afec4658fbafe443.png
-  detection_source_url: api/node_modules/ansi-styles/package.json
-  detection_source: api/node_modules/xdg-basedir/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/ansi-styles/package.json
+  detection_source: api/node_modules/ansi-styles/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: tslib
@@ -4026,7 +4124,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15853/default_97d4687bd07ff1bb963fd566c84e7cbf7c73bbee.png
-  detection_source_url: api/node_modules/sift/yarn.lock
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/sift/yarn.lock
   detection_source: package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -4040,8 +4138,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17768/default_b760b4f955878b0055c02bde0608c2f01e7d4f4f.png
-  detection_source_url: api/package-lock.json
-  detection_source: api/node_modules/express/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/package-lock.json
+  detection_source: api/node_modules/body-parser/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: uglify-js
@@ -4054,8 +4152,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15900/default_1d65e37e65b7f80761374f0202776043277d505d.png
-  detection_source_url: api/node_modules/sift/yarn.lock
-  detection_source: api/node_modules/ipaddr.js/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/sift/yarn.lock
+  detection_source: api/node_modules/bluebird/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: upath
@@ -4068,7 +4166,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18193/default_63c787c86dc2f82d999c8bfdd3f0cd4aa18c2145.png
-  detection_source_url: api/node_modules/sift/yarn.lock
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/sift/yarn.lock
   detection_source: api/node_modules/chokidar/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -4082,7 +4180,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16264/default_f04d39fc656c2e32ee1b9d3875a3002459aa3b69.png
-  detection_source_url: api/node_modules/sift/yarn.lock
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/sift/yarn.lock
   detection_source: api/node_modules/nodemon/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -4096,7 +4194,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18011/image.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/package-lock.json
   detection_source: api/node_modules/mongodb/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -4110,7 +4208,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17738/default_b527ab15473225ca7c2e9b197c9726e92ac97de8.png
-  detection_source_url: api/package-lock.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/package-lock.json
   detection_source: api/node_modules/express/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -4124,7 +4222,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15916/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
-  detection_source_url: api/node_modules/sift/yarn.lock
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/sift/yarn.lock
   detection_source: api/node_modules/mongoose/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -4138,7 +4236,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16255/default_fef27d1523ac1844fc00e83e47bddd8898ff8a89.png
-  detection_source_url: api/node_modules/mongoose/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/mongoose/package.json
   detection_source: api/node_modules/mongoose/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -4159,7 +4257,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15826/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
-  detection_source_url: api/node_modules/sift/yarn.lock
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/sift/yarn.lock
   detection_source: api/node_modules/sift/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -4173,7 +4271,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18295/default_678ce8b19e8cee1dde03f165f62525a2c9d0c034.png
-  detection_source_url: api/package-lock.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/package-lock.json
   detection_source: api/node_modules/configstore/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -4187,8 +4285,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16016/default_261820f5687b4c88a3e8f95c71b5e8dccd34c1d7.png
-  detection_source_url: api/node_modules/@szmarczak/http-timer/package.json
-  detection_source: api/node_modules/xdg-basedir/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/@szmarczak/http-timer/package.json
+  detection_source: api/node_modules/@szmarczak/http-timer/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: yargs
@@ -4201,8 +4299,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15887/default_3af1504b6f77c55205ba630fe08c472f43b95f6e.png
-  detection_source_url: api/node_modules/sift/yarn.lock
-  detection_source: api/node_modules/sift/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/sift/yarn.lock
+  detection_source: api/node_modules/mongodb/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: zen-observable
@@ -4215,7 +4313,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18611/default_1f32939697c9f15330e44e8bcc5c2e71552d2a33.png
-  detection_source_url: api/node_modules/@sindresorhus/is/package.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/api/node_modules/@sindresorhus/is/package.json
   detection_source: api/node_modules/@sindresorhus/is/package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
@@ -4229,7 +4327,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15915/default_59a1b5716eefa3750c20936c3d53ff13a6390ee1.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/nayneshrathod/GST-App/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
