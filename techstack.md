@@ -116,7 +116,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [nayneshrathod/GST-App](https://github.com/nayneshrathod/GST-App)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|300<br/>Tools used|01/04/24 <br/>Report generated|
+|300<br/>Tools used|01/05/24 <br/>Report generated|
 |------|------|
 </div>
 
