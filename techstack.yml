@@ -2,7 +2,7 @@ repo_name: nayneshrathod/GST-App
 report_id: 68f3930dc4f898ff8f34454fa304b5ca
 version: 0.1
 repo_type: Public
-timestamp: '2024-01-05T09:12:06+00:00'
+timestamp: '2024-02-29T18:20:05+00:00'
 requested_by: nayneshrathod
 provider: github
 branch: master
@@ -295,8 +295,8 @@ tools:
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: EditorConfig
-  description: 'A file format and collection of text editor plugins for maintaining
-    consistent coding styles '
+  description: A file format and collection of text editor plugins for maintaining
+    consistent coding styles
   website_url: http://editorconfig.org
   open_source: false
   hosted_saas: false
@@ -423,7 +423,7 @@ tools:
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: Prettier
-  description: 'Prettier is an opinionated code formatter. '
+  description: Prettier is an opinionated code formatter.
   website_url: https://prettier.io/
   version: 1.14.3
   license: MIT
@@ -464,7 +464,7 @@ tools:
   last_updated_by: Naynesh Rathod
   last_updated_on: 2020-05-18 08:53:36.000000000 Z
 - name: SuperTest
-  description: 'A library for testing node.js HTTP servers '
+  description: A library for testing node.js HTTP servers
   website_url: https://www.npmjs.com/package/supertest
   version: 4.0.2
   license: MIT
